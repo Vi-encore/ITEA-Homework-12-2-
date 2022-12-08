@@ -19,15 +19,11 @@ function stepCount() {
       } else {
         result += i;
       }
-    }
 
-    for (let q = a; q < b; q++) {
-      if (q === a) {
-        odd += "";
-      } else if (q % 2 === 0) {
+      if (i % 2 === 0) {
         odd += "";
       } else {
-        odd += `${q} `;
+        odd += `${i} `;
       }
     }
   }
